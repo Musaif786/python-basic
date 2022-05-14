@@ -1,6 +1,14 @@
 class musaif:
-    name= "md musaif khan"
+    # instance bolte below name and salary ko
+    name = "md musaif"
+    salary = 25000
 
-#class ka object hai ye below one like java me kaisa rhata waisa he
+
+# class ka object hai ye below one like java me kaisa rhata waisa he
 obj = musaif()
-print(obj.name)
+n = obj.name
+if(obj.salary > 30000):
+   print(f"My Name is {n.upper().replace(' ','_')}")
+   print(obj.salary)
+else:
+   print("Salary is less then 25K")
