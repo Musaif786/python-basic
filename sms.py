@@ -22,5 +22,5 @@ def send_sms(number,message):
     print(dis)
     
     
-send_sms("<number>","hello how are you")
+send_sms("<number>","hello how are you dear")
     
