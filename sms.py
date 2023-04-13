@@ -1,11 +1,13 @@
 import requests
 import json
 
+"""
 url = "https://musaif.netlify.com"
 
 x = requests.get(url)
 print(x.status_code)
 
+"""
 def send_sms(number,message):
     smsUrl = "https://www.fast2sms.com/dev/bulkV2"
     params = {
